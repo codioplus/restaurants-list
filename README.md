@@ -26,14 +26,18 @@ BCMath PHP Extension
 #To run this app all what you have to do is:
 
 #*Shared host:
+
 upload the code inside this folder and access it.
 
 you may need access /public folder if the files not in the root directly.
 
 
 #*local server
+
 1-run server
+
 2-add the code inside this folder.
+
 3-move to the code directory using command line than call 
 
  php artisan serve
@@ -45,8 +49,11 @@ use the link appear to access the application
 #Code Structure:
 
 The app directory contains the core code of the application.
+
 The resources directory contains the views of the application.
+
 The routes directory contains all of the route definitions.
+
 The storage directory contains css,js,images and sample json.
 
 
