@@ -1,3 +1,5 @@
+Check The Demo: http://cre8maniahost.com/restaurants-list/public/
+
 This application is build with Laravel 5.8. The server must meet the following requirements to run this application. 
 
 PHP >= 7.1.3
