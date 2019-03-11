@@ -3,7 +3,7 @@ $(window).on("load",faceted())
 
 var xhr = new XMLHttpRequest();
 function faceted(page){
-
+    var imgUrl = $("#filterWrapper").attr('data-url');
     var csrf = $("#filterWrapper").attr('data-token');
     var search = $("#search").val();
     var status = $("#status").val();
@@ -15,7 +15,7 @@ function faceted(page){
         data: {_token:csrf,search:search,page:page,qty:qty,status:status,sorting:sorting},
         type: 'get',
         beforeSend:function(){
-            $("#result").html('<img src="../../image/spinner.gif" alt="" class="spinner"/>')
+            $("#result").html('<img src="'+imgUrl+'/image/spinner.gif" alt="" class="spinner"/>')
         }
     }).done(function(e){
         $data = $(e);
