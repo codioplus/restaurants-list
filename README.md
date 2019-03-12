@@ -57,8 +57,9 @@ The resources directory contains the views of the application.
 
 The routes directory contains all of the route definitions.
 
-The storage directory contains css,js,images and sample json.
+The storage/app directory contains  sample json.
 
+The public directory contains css,js,images.
 
 Note: you donot need to make any database configurations(I am not using database)
 
